@@ -1,0 +1,251 @@
+body {
+    font-family: 'Open Sans';
+  }
+  /*Navbar*/
+  .navbar{
+    background: #282121;
+  }
+  a.nav-link{
+    color: white;
+  }   
+  a.nav-link:hover{
+    color: rgb(156, 152, 152);
+  }
+  .search{
+    line-height: 10px;
+  }
+  .navbar-toggler{
+    background-color: white;
+  }
+  nav ul li{
+    padding: 0 15px 0 15px;
+  }
+  /* Image */
+  #img1{
+  border-radius: 100px;
+  padding-top: 20px;
+  width: 15rem;
+  height: 20rem;
+  margin-left:30px;
+  margin-top: 40px;
+  }
+  #img2{
+  border-radius: 100px;
+  padding: 20px ;
+  width: 22rem;
+  height: 33rem;
+  margin-top: 6.5rem;
+  margin-left: 54px;
+  }
+  #img3{
+  border-radius: 150px;
+  padding-top: 20px;
+  width: 15rem;
+  height: 17rem;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+  }
+  #column{
+    padding-top: 10rem;
+    padding-left: 1.7rem;
+  }
+  .shop-btn{
+  background-color: #282121;
+  border: none;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: bold;
+  }
+  /* text */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 80px;
+    padding: 50px 16px;
+    color: white;
+  }
+  
+  .grid-container > div {
+    background-color: #282121;
+    text-align: center;
+    padding: 40px 0px;
+    border-radius: 5px;
+    width: auto;
+  }
+  .under{
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+  }
+  .text{
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  @media screen and (min-width: 568px){ 
+    .cards-wrapper{
+        display: flex;
+    }
+    .card{
+        margin: 1.2em;
+        width: calc(100%/3);
+        border-color: #fff;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 567px){
+    .card:not(:first-child){
+        display: none;
+    }
+}
+.card-img-top{
+    height: 30rem;
+}
+.space{
+    display: inline-block;
+    margin-left: 140px;
+}
+.rating{
+    display: inline-block;
+    margin-left: 110px;
+}
+.card-title{
+    font-weight:bolder;
+}
+.card-body{
+    padding: 0 0 0 0;
+    line-height:0;
+    padding-bottom: 70px;
+}
+.description{
+    padding:20px 0 0 19px;
+}
+.text-dec{
+    padding-top: 120px;
+}
+.text-stl{
+    padding-top: 20px;
+}
+.shop-btn1{
+    background-color: #282121;
+    border: none;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.image1{
+    width: 32rem;
+    height: 35rem;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+/* .card-wrappers{
+    display: flex;
+} */
+/* .cards{
+    margin:1.2em;
+    width: calc(100%/3);
+}
+.img-wrapper{
+    height: 20vw;
+    background-color:#eeeeee;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 130%;
+}
+.img-wrapper img{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 568px){ 
+  .card-wrapper{
+      display: flex;
+  }
+  .cards{
+      margin: 5em;
+      width: calc(100%/3);
+  }
+}
+.card-bodys{
+  background-color: #dddddd;
+  text-align: center;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.shop-btn2{
+  background-color: #282121;
+  border: none;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.card-titles{
+  font-weight: bolder;
+} */
+
+.card-img-tops{
+  height: 20rem;
+  width: 24rem;
+}
+.card-titles{
+  font-weight: bolder;
+  padding-top: 20px;
+} 
+.shop-btn2{
+  background-color: #282121;
+  border: none;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.bg-cust{
+  background-color: #282121;
+  margin-top: 70px;
+}
+.footerNav{
+  margin:30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+@media (max-width:700px){
+  .footerNav ul{
+    flex-direction: column;
+  }
+  .footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
